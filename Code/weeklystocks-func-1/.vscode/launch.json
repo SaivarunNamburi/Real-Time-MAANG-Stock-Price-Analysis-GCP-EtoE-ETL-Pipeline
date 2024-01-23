@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "weeklystocks_func",
+      "region": "us-east1",
+      "gen": "GEN_2",
+      "revision": "weeklystocks-func-00003-soq",
+      "entryPoint": "weekly_stocks",
+      "runtime": "python39",
+      "testInput": ""
+    }
+  ]
+}

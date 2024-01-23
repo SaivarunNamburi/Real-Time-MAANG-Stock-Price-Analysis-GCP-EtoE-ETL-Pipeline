@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "monthlystocks_func",
+      "region": "us-central1",
+      "gen": "GEN_2",
+      "revision": "monthlystocks-func-00024-sum",
+      "entryPoint": "monthly_stocks",
+      "runtime": "python39",
+      "testInput": ""
+    }
+  ]
+}

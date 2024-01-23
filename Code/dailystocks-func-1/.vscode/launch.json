@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "dailystocks_func",
+      "region": "us-east4",
+      "gen": "GEN_2",
+      "revision": "dailystocks-func-00001-hey",
+      "entryPoint": "daily_stocks",
+      "runtime": "python39",
+      "testInput": ""
+    }
+  ]
+}
